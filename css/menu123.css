@@ -1,0 +1,59 @@
+ /* menu::base */
+div#menu {
+    height:3em;
+}
+
+div#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: left;
+}
+div#menu ul.menu {
+    padding-left: 0;
+}
+
+div#menu li {
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    padding: 0 5px 0 0;
+    display: block;
+    float: left;
+}
+
+
+div#menu a {
+    position: relative;
+    display: flex;
+    text-decoration: none;
+    font: normal;
+    font-size: 2em;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 0 1em 0 1em;
+    line-height: 1em;
+    color: #e5e5e5;
+}
+div#menu a:hover span { color:#DDA0DD; }
+
+div#menu span {
+    margin-top: 0.2em;
+}
+
+/* lava lamp */
+div#menu li.back {
+    background: url(images/lava.png) no-repeat right -44px !important;
+    background-image: url(images/lava.gif);
+    width: 13px;
+    height: 44px;
+    z-index: 8;
+    position: absolute;
+    margin: -1px 0 0 -5px;
+}
+div#menu li.back .left {
+    background: url(images/lava.png) no-repeat top left !important;
+    background-image: url(images/lava.gif);
+    height: 44px;
+    margin-right: 8px;
+}
+

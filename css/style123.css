@@ -1,0 +1,271 @@
+ *{
+margin: 0;
+padding: 0;
+
+}*
+
+body{
+font: 14px Tahoma, Geneva, sans-serif;
+background-repeat: repeat;
+line-height: normal;
+color: white;
+}
+
+
+#omot{
+width: 70%;
+margin: auto;
+background-color: black;
+border: 2px solid purple;
+}
+
+#heder{
+background: none;
+padding: 1em;
+color: black;
+border-radius:25px 25px 0 0;
+height: 12em;
+}
+
+
+li.menu {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+}
+
+
+#menu {
+    height: 10em;
+    display: flex;
+    font-family: Tahoma, Geneva, sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    flex: 4;
+
+}
+
+.menu>li{
+display: flex;
+align-items: center;
+padding: 0 1em;
+font: bold 15px;
+font-family: Tahoma, Geneva, sans-seriff;
+
+}
+
+#meni a{
+color: white;
+text-decoration: none;
+}
+
+#meni a:hover {
+color: green;
+text-decoration: underline;
+}
+
+
+#linkovi{
+position: relative;
+left: 100%;
+top: -450%;
+width: 150px;
+margin: 20px 0px;
+padding: 30px;
+background: none;
+margin-right: 15px;
+height: 250px;
+}
+
+#futer{
+clear: both;
+text-align: center;
+padding: 5px;
+color: white;
+}
+
+#sadrzaj{
+float: left;
+width: 660px;
+margin: 30px;
+display: flexbox;
+
+}
+
+article{
+    background: none;
+    border: 1px solid white;
+    margin-bottom: 15px;
+    padding: 3em; 
+    width: 100%;
+    text-align: justify;
+    display:flexbox;
+    }
+
+#tekst {
+position: relative;
+top: 0.1em;
+color: white;
+text-align: center;
+padding: 0.5em;
+color: black;
+font-size: 3em;
+}
+
+@keyframes animacija {
+    0% {color:white}
+    100% {color: purple}
+}
+
+h1 {
+    animation-name: animacija;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; /*ide 0 pa 50 pa 100 pa 50 pa 0 pa 50 pa 100...*/
+}
+h2 {
+    animation-name: animacija;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; /*ide 0 pa 50 pa 100 pa 50 pa 0 pa 50 pa 100...*/
+}
+h3 {
+    animation-name: animacija;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; /*ide 0 pa 50 pa 100 pa 50 pa 0 pa 50 pa 100...*/
+}
+
+h5{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+#slika {
+    position: relative;
+    top: -56px;
+    left: 0px;
+    padding: 10px;
+    }
+
+
+a {
+COLOR:white;
+text-decoration: underline;}
+
+a:visited {
+COLOR: solid grey;
+text-decoration: underline;
+}
+
+a:hover { 
+color: #DDA0DD;
+}
+
+h1{
+color: white;
+}
+
+#info {
+    display: flex;
+    flex: 3;
+    justify-content: center;
+}
+
+#info .info1 {
+    width: 70%; 
+    padding: 3em;
+}
+
+form {
+color: white;
+border: 2px white;
+display: flexbox;
+margin-left: 37%;
+}
+
+#vracanje {
+    margin-bottom: 0;
+}
+
+#pozadina img{
+min-height: 100%;
+min-width: 800px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0px;
+left: 0px;
+z-index: -10;
+
+}
+
+#mapa {
+position:relative;
+margin-left: 12%;
+
+}
+
+#ime{
+position: relative;
+left: 450px;
+}
+
+p {
+text-align: justify;
+}
+
+*#vesti {
+position: center;
+position: relative;
+top: 0px;
+right: -17%;
+} 
+
+.column {
+    float: left;
+    width: 29%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+#slicice{ 
+position: relative;
+top: -700px;
+}
+
+#slicice1{ 
+position: relative;
+top: -400px;
+}
+
+
+#galleria{
+position: relative;
+right: -15%;
+}
+
+h4 {
+font: 26px white;
+font-family: Tahoma, Geneva, sans-serif;
+text-align: center;
+position: relative;
+left: 23%;
+text-decoration: none;
+}
